@@ -9,6 +9,7 @@ public class ScmApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(ScmApplication.class, args);
 		System.out.println("Application is running!!");
+		System.out.println("Edited for 2nd Commit!");
 	}
 
 }

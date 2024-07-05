@@ -14,4 +14,14 @@ public class PageController {
         return "home";
     }
 
+    @RequestMapping("/about")
+    public String aboutPage(){
+        return "about";
+    }
+
+    @RequestMapping("/services")
+    public String servicesPage(){
+        return "services";
+    }
+
 }
